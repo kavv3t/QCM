@@ -124,6 +124,12 @@ h2 {
     transition: 0.1s;
 }
 
+.start-button:active {
+    box-shadow: none;
+    transition: 0.1s;
+    transform: translate(0, 5px);
+}
+
 .next {
     box-shadow: -5px 5px rgb(154, 154, 154);
 }
