@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>QCM Français</title>
+  <link rel="stylesheet" href="../css/home/general.css">
+  <link rel="stylesheet" href="../css/home/background.css">
+  <script src="../js/background.js"></script>
+  <script src="../js/default.js"></script>
+  <script src="../js/lumos.js"></script>
+  <audio id="background-music" src="../video/questionsong.m4a" autoplay loop></audio>
+</head>
+<body>
+  <div class="context">
+    <header>
+      <p class="titre">Questionnaire à choix multiple de Français</p>
+    </header>
+    <main>
+      <article class="art1">
+        <div class="part1 modif1">
+          <h2>Question 2 :</h2>
+          <p class="para1 modif2">Qu'est-ce que les lettres persanes critiquent principalement?<br><br>A. Le système judiciaire.<br>B. La cuisine française.<br>C. Les pratiques et règles de la société française.</p> 
+        </div>
+        <div class="start modif3">
+          <button onclick="location.href='quest1.html'" class="previous">Précédente</button>
+          <button onclick="location.href='quest3.html'" class="next">Suivante</button>
+        </div>
+        <div class="panel">
+          <div class="brightness-control">
+            <label for="brightness">Luminosité:</label>
+            <input type="range" id="brightness" name="brightness" min="0.1" max="1.5" step="0.1" value="1.0">
+          </div>
+          <div class="volume-control">
+            <label for="volume">Volume:</label>
+            <input type="range" id="volume" name="volume" min="0" max="1" step="0.1" value="0.2">
+          </div>
+        </div>
+      </article>
+      <aside>
+        <nav>
+          <button onclick="location.href='home.html'" class="index">Écran titre</button>
+          <button onclick="location.href='quest1.html'" class="index">Question 1</button>
+          <button onclick="location.href='quest3.html'" class="index">Question 3</button>
+          <button onclick="location.href='quest4.html'" class="index">Question 4</button>
+          <button onclick="location.href='quest5.html'" class="index">Question 5</button>
+          <button onclick="location.href='quest6.html'" class="index">Question 6</button>
+          <button onclick="location.href='quest7.html'" class="index">Question 7</button>
+          <button onclick="location.href='quest8.html'" class="index">Question 8</button>
+          <button onclick="location.href='quest9.html'" class="index">Question 9</button>
+          <button onclick="location.href='quest10.html'" class="index">Question 10</button>
+          <button onclick="location.href='result.html'" class="index">Réponses</button>
+        </nav>
+      </aside>
+    </main>
+  </div>
+  <div class="area" >
+        <ul class="circles">
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+        </ul>
+  </div >
+</body>
+</html>
