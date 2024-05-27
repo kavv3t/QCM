@@ -225,22 +225,28 @@ aside {
     display: grid;
     justify-content: center;
     padding: 10px 10px 10px 10px;
-    width: 15vh;
+    width: 25vh;
     border: solid 2px white;
     border-radius: 5px;
     margin: 90px 0 90px 0px;
     background-color: rgba(255, 255, 255, 0.5);
 }
 
-nav {
+.second {
     display: grid;
-    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-    row-gap: 1vh;
-    align-items: center;
+    grid-template-rows: 8% 84% 8%;
     z-index: 2000;
 }
 
+.quest {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    column-gap: 1vh;
+}
+
 .index {
+    font-family: 'Exo', sans-serif;
     display: grid;
     justify-content: center;
     background-color: rgba(255, 255, 255, 1);
@@ -253,6 +259,14 @@ nav {
     font-size: 20px;
     cursor: pointer;
     transition: 0.1s;
+}
+
+.down {
+    margin-top: 10px;
+}
+
+.upper {
+    margin-bottom: 10px;
 }
 
 .index:active {
