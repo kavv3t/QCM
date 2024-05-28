@@ -39,6 +39,10 @@ header {
     font-size: 50px;
 }
 
+h2 {
+    font-size: 30px;
+}
+
 main {
   display: grid;
   grid-template-columns: 1fr 1fr;
