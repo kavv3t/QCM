@@ -139,6 +139,10 @@ h2 {
     transform: translate(0, 5px);
 }
 
+.answer {
+    margin-top: 0vh;
+}
+
 .next {
     box-shadow: -5px 5px rgb(154, 154, 154);
 }
